@@ -22,7 +22,7 @@ app.engine('hbs', exphbs({
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 
-var routes = require('./burgerControls.js');
+var routes = require('./js/burgerControls.js');
 app.use('/', routes);
 
 
