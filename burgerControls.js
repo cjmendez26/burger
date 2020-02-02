@@ -1,6 +1,6 @@
 var express = require('express');
 var burger_router = express.Router();
-var burger_call = require('../models/burger.js');
+var burger_call = require('./burger.js');
 var bodyParser = require('body-parser');
 
 burger_router.use(bodyParser.json());
