@@ -1,4 +1,4 @@
-var orm = require('../config/orm.js');
+var orm = require('../js/orm.js');
 
 var burger_call = {
   insert: function(some_val, cb){
